@@ -1,0 +1,56 @@
+<div class="content">
+    <div fxlayout="row wrap" fxLayoutGap="16px grid" style="align-items: center;">
+      <div fxFlex="50%" *ngFor="let num of [1]">
+        <mat-card class="mat-elevation-z4">
+          <mat-card-header >
+            <mat-card-title>Available</mat-card-title>
+          </mat-card-header>
+         
+          <mat-card-content>
+            <label for="place">Place :  </label>
+            <input matInput placeholder="Enter place">
+        <br>
+            <label for="start">From :  </label>
+        <input type="date" id="start" name="trip-start" value=""
+               min="2020-03-01" max="2020-04-31">
+          <label  for="end">To :  </label>
+          <input type="date" id="end" name="trip-end" value=""
+                      min="2020-03-01" max="2020-04-31">
+           <br>
+            <label for="noofpersons">No. of Persons:</label>
+            <input matInput placeholder="Enter no. of persons">
+            <br>
+            <p style="padding: 5px;"> Price per head 1500</p>
+            <br>
+            <a mat-button routerLink="book">Book</a>
+            
+          </mat-card-content>
+        </mat-card>
+       
+        <mat-card class="mat-elevation-z4">
+          <mat-card-header>
+            <mat-card-title >Booked</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <label for="place">Place :  </label>
+            <input matInput placeholder="Enter place">
+        <br>
+            <label for="start">From :  </label>
+        <input type="date" id="start" name="trip-start" value=""
+               min="2020-03-01" max="2020-04-31">
+          <label for="end">To :  </label>
+          <input type="date" id="end" name="trip-end" value=""
+                      min="2020-03-01" max="2020-04-31">
+           <br>
+            <label for="noofpersons">No. of Persons</label>
+            <input matInput placeholder="Enter no. of persons:">
+            <br>
+            <p style="padding: 5px;">  Price per head 1500</p>
+   
+            
+            
+          </mat-card-content>
+        </mat-card>
+      </div>
+  </div>
+  </div>

@@ -1,0 +1,37 @@
+
+.content>mat-card{
+    width:900px;
+}
+div{
+    justify-content: center;
+}
+.content{
+    width: 100%;
+    justify-content: center;
+}
+mat-card { 
+margin: 15px; 
+padding: 15px;
+width:700px;
+text-align: center;
+display: flex;
+}
+mat-card-header{
+background-color: rgb(221, 49, 135);
+color: aliceblue;border-radius: 5px;border: 2%;
+}
+mat-card-title{
+    margin: 10px;
+    text-align: center; 
+}
+label{
+    padding: 10px;
+}
+input{
+    padding: 5px;margin: 10px;
+}
+a{
+    padding: 5px;padding-left: 5%;padding-right: 5%;margin-left: 20px;
+    background-color:rgb(56, 114, 161);
+    border-radius:5%;border: 5px;color: azure;
+}
