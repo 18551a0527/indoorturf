@@ -1,0 +1,29 @@
+<div fxLayoutAlign="center center" fxFlexFill class="main-div">
+    <mat-card fxFlex="25">
+        <mat-toolbar fxLayoutAlign="center center" color = "primary">Booking Details</mat-toolbar>
+        <form fxLayoutAlign="stretch" fxLayout="column" class="form">
+            <mat-form-field>
+                <input matInput placeholder="Turfname" name="Turfname">
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput placeholder="Address" name="address">
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput type="date" placeholder="From date:" id="start" name="trip-start" value=""
+                min="2020-03-01" max="2020-04-31">
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput type="date" placeholder="To date:" id="end" name="trip-start" value=""
+                min="2020-03-01" max="2020-04-31">
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput placeholder="No. of persons" name="noofpersons">
+              </mat-form-field>
+              <mat-form-field>
+                <input matInput placeholder="Total Price" name="Total price">
+              </mat-form-field>
+           <button mat-raised-button type="submit" color="primary">Save Changes</button>
+          </form>
+          
+    </mat-card>
+</div>

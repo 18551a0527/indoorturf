@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {MatFormFieldModule} from '@angular/material/form-field';
 import { AppRoutingModule } from './app-routing.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
@@ -12,13 +12,15 @@ import { DummyComponent } from './dummy/dummy.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatInputModule} from '@angular/material/input';
+import { MybookingComponent } from './mybooking/mybooking.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DummyComponent,
-    DashboardComponent
+    DashboardComponent,
+    MybookingComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import {MatInputModule} from '@angular/material/input';
     MatButtonModule,
     MatCardModule,
     FlexLayoutModule,
-    MatInputModule
+    MatInputModule,
+    MatFormFieldModule
     
   ],
   providers: [],
